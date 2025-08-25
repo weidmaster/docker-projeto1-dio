@@ -1,8 +1,7 @@
-version: '3.9'
 services:
   apache:
     image: httpd:latest
-    container_name: my-apache-app
+    container_name: apache-app-dio
     ports:
     - '80:80'
     volumes:
